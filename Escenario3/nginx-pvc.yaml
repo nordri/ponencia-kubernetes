@@ -1,0 +1,14 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: nginx-gold
+  labels:
+    app: nginx
+  annotations:
+    volume.beta.kubernetes.io/storage-class: "gold"
+spec:
+  accessModes:
+    - "ReadWriteOnce"
+  resources:
+    requests:
+      storage: "1Gi"

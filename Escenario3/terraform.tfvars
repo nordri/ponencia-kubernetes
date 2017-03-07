@@ -1,0 +1,7 @@
+node-count="1"
+floating-ip-pool="vlan35"
+internal-ip-pool="kube-network"
+image-name="e60f0669-0b62-4f39-8065-483d73b0828b"
+image-flavor="m1.small"
+security-groups="http,default"
+key-pair="fdiaz-openstack"
