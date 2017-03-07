@@ -1,0 +1,14 @@
+[Global]
+auth-url=http://192.168.101.105:5000/v3
+username=demo
+password=d3m0
+region=RegionOne
+tenant-id=d245f207e6fc4e56b5a1d23e0716ad70
+domain-name=Default
+[LoadBalancer]
+lb-version=v2
+subnet-id=82f277d7-1b29-49b3-94ee-40424c4e36d9
+manage-security-groups=true
+node-security-group=b063453a-41fb-47e5-ac3e-fbe270fc2232
+floating-network-id=ccee1f8b-c813-4a69-a072-ee1e10aba677
+
